@@ -1,0 +1,30 @@
+{
+  "name": "controldealumnospractica",
+  "version": "1.0.0",
+  "description": "Practica Supervisada NodeJS, Express y MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chofito/ControlDeAlumnosPractica.git"
+  },
+  "author": "Rodolfo Robles <Darksun>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chofito/ControlDeAlumnosPractica/issues"
+  },
+  "homepage": "https://github.com/Chofito/ControlDeAlumnosPractica#readme",
+  "dependencies": {
+    "bcrypt-node": "^0.1.0",
+    "body-parser": "^1.18.3",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.16.4",
+    "jwt-simple": "^0.5.5",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.9",
+    "nodemon": "^1.18.9"
+  }
+}
